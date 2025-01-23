@@ -1,0 +1,28 @@
+% Here’s a simple Octave script that uses all available CPU threads to perform a task, and then measures the total time the CPU spent processing:
+
+
+% Start measuring time
+tic;
+
+% Get the number of CPU threads available
+num_threads = feature('numCores');
+
+% Display the number of available CPU threads
+disp(['Number of CPU threads: ', num2str(num_threads)]);
+
+% Create a dummy large matrix operation that can use multiple threads
+A = rand(10000, 10000);
+
+% Use parallel processing (make sure Octave is compiled with parallel support)
+parpool(num_threads);  % Start a parallel pool with the available threads
+parfor i = 1:num_threads
+    % Perform a matrix operation in parallel
+    B = A * A';  
+end
+
+% End time measurement and display elapsed time
+elapsed_time = toc;
+disp(['Elapsed CPU time: ', num2str(elapsed_time), ' seconds.']);
+
+% Close the parallel pool
+delete(gcp);
