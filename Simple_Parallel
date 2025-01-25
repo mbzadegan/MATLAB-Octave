@@ -1,6 +1,5 @@
 % Here’s a simple Octave script that uses all available CPU threads to perform a task, and then measures the total time the CPU spent processing:
 
-
 % Start measuring time
 tic;
 
