@@ -33,7 +33,7 @@ end
 
 % Main function to sort using different methods and output processing times
 function measureSortingTimes(N)
-    % Generate random numbers
+    % Generate N random numbers
     numbers = generateRandomNumbers(N);
 
     % Measure processing time for Bubble Sort
