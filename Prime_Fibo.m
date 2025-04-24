@@ -8,6 +8,7 @@ fib(2) = 1;
 numFib = 50;  % Adjust to get more Fibonacci numbers
 
 % Generate Fibonacci numbers
+
 for i = 3:numFib
     fib(i) = fib(i-1) + fib(i-2);
 end
