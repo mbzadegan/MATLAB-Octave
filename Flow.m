@@ -9,7 +9,7 @@ x_star = linspace(-1, 1, grid_size);  % X range
 y_star = linspace(-a, a, grid_size);  % Y range
 [X, Y] = meshgrid(x_star, y_star);
 
-% Compute alpha_n values
+% Compute alpha_n values.
 n = (1:N)';  % Series index
 alpha_n = (2*n - 1) * pi / (2 * a);
 
