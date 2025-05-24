@@ -21,7 +21,7 @@ for i = 1:N
     w_star = w_star + (2/a) * term;
 end
 
-% Plot velocity contours
+% Plot velocity contours:
 figure;
 contourf(X, Y, w_star, 20, 'LineColor', 'none');
 colorbar;
