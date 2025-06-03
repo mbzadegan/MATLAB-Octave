@@ -1,4 +1,4 @@
-% MATLAB code to assess random numbers quality
+% MATLAB code to assess random numbers quality.
 
 % Number of random numbers to generate.
 numValues = 1000;  % Adjust this for a larger sample
