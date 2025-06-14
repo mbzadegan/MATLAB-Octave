@@ -1,5 +1,5 @@
 function pascalTriangle = generatePascalTriangle(n)
-    % Initialize an empty cell array to store each row
+    % Initialize an empty cell array to store each row.
     pascalTriangle = cell(n, 1);
 
     % Loop through each row
