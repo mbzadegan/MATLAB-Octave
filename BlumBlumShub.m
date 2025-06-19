@@ -1,4 +1,4 @@
-% Blum Blum Shub (BBS) Random Number Generator
+% Blum Blum Shub (BBS) Random Number Generator.
 clc;
 clear;
 
