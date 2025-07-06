@@ -1,4 +1,4 @@
-% k-Nearest Neighbors (Statistics and Machine Learning Toolbox)
+% k-Nearest Neighbors (Statistics and Machine Learning Toolbox).
 
 
 % Resize and extract features (flatten 28x28 into 1x784 vectors)
