@@ -1,4 +1,4 @@
-% Load grayscale image
+% Load grayscale image:
 img = imread('your_image.png');
 if size(img, 3) == 3
     img = rgb2gray(img);  % Convert to grayscale if RGB
