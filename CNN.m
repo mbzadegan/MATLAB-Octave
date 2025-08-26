@@ -1,4 +1,4 @@
-% Convolutional Neural Network (Deep Learning Toolbox)
+% Convolutional Neural Network (Deep Learning Toolbox).
 % for image classification using the built-in MNIST-like dataset (digitDatasetPath).
 
 % Load digit dataset (built-in)
