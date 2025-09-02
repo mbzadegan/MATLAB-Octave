@@ -1,5 +1,5 @@
 % Here’s a simple Octave script that uses all available CPU threads to perform a task, and then measures the total time the CPU spent processing:
-% First of all, please install the parallel package by:
+% First of all, please install the parallel package by :
 
 pkg install -forge parallel
 
