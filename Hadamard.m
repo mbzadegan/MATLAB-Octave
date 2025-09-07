@@ -4,7 +4,7 @@ if size(img, 3) == 3
     img = rgb2gray(img);  % Convert to grayscale if RGB
 end
 
-% Resize image to 128x128 (must be power of 2)
+% Resize image to 128x128 (must be a power of 2)
 img = imresize(img, [128 128]);
 
 % Normalize image to range [0, 1]
