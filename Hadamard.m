@@ -10,7 +10,7 @@ img = imresize(img, [128 128]);
 % Normalize image to range [0, 1]
 img_norm = double(img) / 255;
 
-% Generate Hadamard matrix
+% Generate Hadamard matrix:
 N = size(img_norm, 1);
 H = hadamard(N);
 
