@@ -3,7 +3,7 @@ function randomNumbers = generateRandomNumbers(N)
     randomNumbers = rand(1, N) * 100;  % Generates random numbers between 0 and 100
 end
 
-% Bubble Sort implementation
+% Bubble Sort implementation.
 function sortedArray = bubbleSort(A)
     n = length(A);
     sortedArray = A;
