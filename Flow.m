@@ -1,7 +1,7 @@
 clc; clear; close all;
 
 % Define parameters
-a = 0.5;  % Aspect ratio of the tube
+a = 0.5;  % Aspect the ratio of the tube
 grid_size = 50;  % Grid resolution for plotting
 N = 50;  % Number of terms in series expansion
 
