@@ -3,7 +3,7 @@
 % Uses K-Nearest Neighbors (KNN) and Convolutional Neural Networks (CNN) to classify the image content.
 % Reports image details such as size, color channels, and predicted class.
 % Replace images/sample.jpg with your own image.
-% KNN uses the handwritten digit dataset as an example. For your own images, you'd need a labeled dataset and feature extraction strategy (e.g., HOG, SIFT).
+% KNN uses the handwritten digit dataset as an example. For your own images, you'd need a labeled dataset and a feature extraction strategy (e.g., HOG or SIFT).
 % CNN uses the AlexNet pretrained model, suitable for general object classification.
 
 
