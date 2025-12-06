@@ -8,7 +8,7 @@ imds = imageDatastore(digitDatasetPath, ...
     'IncludeSubfolders', true, ...
     'LabelSource', 'foldernames');
 
-% Split into training and test
+% Split into training and test.
 [imdsTrain, imdsTest] = splitEachLabel(imds, 0.8, 'randomized');
 
 % Define CNN architecture
