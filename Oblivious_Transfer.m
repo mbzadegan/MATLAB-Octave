@@ -1,4 +1,4 @@
-% Oblivious Transfer Simulation in MATLAB simulation
+% Oblivious Transfer Simulation in MATLAB
 clc;
 clear;
 
