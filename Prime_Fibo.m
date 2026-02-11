@@ -5,7 +5,7 @@ fib(1) = 0;
 fib(2) = 1;
 
 % Number of Fibonacci numbers to generate (you can increase the number)
-numFib = 50;  % Adjust to get more Fibonacci numbers
+numFib = 50;  % Adjust it to get more Fibonacci numbers
 
 % Generate Fibonacci numbers
 
