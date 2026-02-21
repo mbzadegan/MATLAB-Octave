@@ -4,7 +4,7 @@ function pascalTriangle = generatePascalTriangle(n)
 
     % Loop through each row
     for i = 0:n-1
-        % Generate each element in the row using the binomial coefficient
+        % Generate each element in the row using the binomial coefficient.
         pascalTriangle{i+1} = arrayfun(@(k) nchoosek(i, k), 0:i);
     end
 
