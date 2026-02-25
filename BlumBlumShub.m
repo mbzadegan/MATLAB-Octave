@@ -16,7 +16,7 @@ end
 % Number of random bits to generate
 num_bits = 16;
 
-% Generate random bits using the BBS algorithm
+% Generate random bits using the BBS algorithm.
 x = mod(seed^2, n); % Initialize x
 random_bits = zeros(1, num_bits); % Array to store random bits
 
