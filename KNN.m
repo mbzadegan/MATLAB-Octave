@@ -6,7 +6,7 @@ inputSize = [28 28];
 numTrain = 1000; % to speed up training
 numTest = 500;
 
-% Read images and labels for training
+% Read images and labels for training.
 [trainImgs, trainLabels] = readall(imdsTrain);
 trainImgs = imresize(cell2mat(trainImgs), [28 28]);
 trainImgs = reshape(trainImgs, 28, 28, 1, []);
